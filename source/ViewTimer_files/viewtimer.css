@@ -1,0 +1,318 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+  font-family: Comfortaa;
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 39rem;
+}.viewtimer {
+  width: 100%;
+  height: 84.4rem;
+  position: relative;
+  overflow: hidden;
+  background-color: #faeadc;
+}
+.viewtimer .titlebrewtime {
+  width: 33.3rem;
+  height: 10.5rem;
+  position: absolute;
+  left: 2.8rem;
+  top: 3.1rem;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 1.115;
+  color: #37251b;
+  font-family: Comfortaa, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d49961;
+  border-radius: 2.4rem;
+}
+.viewtimer .milk {
+  width: 33.3rem;
+  height: 3.3rem;
+  position: absolute;
+  left: 2.8rem;
+  top: 60.6rem;
+  border-bottom: solid 0.1rem #37251b;
+  box-sizing: border-box;
+}
+.viewtimer .milk .group1 {
+  width: 100%;
+  height: 2.5rem;
+  display: flex;
+  align-items: flex-start;
+}
+.viewtimer .milk .group1 .milktext {
+  margin-right: 17.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.115;
+  color: #37251b;
+  font-family: Comfortaa, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.viewtimer .milk .group1 .ingredientcomponentmilk {
+  width: 11.2rem;
+  height: 100%;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.115;
+  color: #37251b;
+  font-family: Comfortaa, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e4bc84;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.viewtimer .sugar {
+  width: 33.3rem;
+  height: 3.3rem;
+  position: absolute;
+  left: 2.8rem;
+  top: 71.8rem;
+  border-bottom: solid 0.1rem #37251b;
+  box-sizing: border-box;
+}
+.viewtimer .sugar .group2 {
+  width: 100%;
+  height: 2.5rem;
+  display: flex;
+  align-items: flex-start;
+}
+.viewtimer .sugar .group2 .sugartext {
+  margin-right: 20rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.115;
+  color: #37251b;
+  font-family: Comfortaa, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.viewtimer .sugar .group2 .ingredientcomponentsugar {
+  width: 6.5rem;
+  height: 100%;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.115;
+  color: #37251b;
+  font-family: Comfortaa, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e4bc84;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.viewtimer .coffegrounds {
+  width: 33.3rem;
+  height: 3.3rem;
+  position: absolute;
+  left: 2.8rem;
+  top: 77.4rem;
+  border-bottom: solid 0.1rem #37251b;
+  box-sizing: border-box;
+}
+.viewtimer .coffegrounds .group3 {
+  width: 100%;
+  height: 2.5rem;
+  display: flex;
+  align-items: flex-start;
+}
+.viewtimer .coffegrounds .group3 .coffeegroundstext {
+  margin-right: 4.1rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.115;
+  color: #37251b;
+  font-family: Comfortaa, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.viewtimer .coffegrounds .group3 .ingredientcomponentcoffeegrounds {
+  width: 12.6rem;
+  height: 100%;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.115;
+  color: #37251b;
+  font-family: Comfortaa, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e4bc84;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.viewtimer .brewtime {
+  width: 33.3rem;
+  height: 3.3rem;
+  position: absolute;
+  left: 2.8rem;
+  top: 66.2rem;
+  border-bottom: solid 0.1rem #37251b;
+  box-sizing: border-box;
+}
+.viewtimer .brewtime .group4 {
+  width: 100%;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+}
+.viewtimer .brewtime .group4 .group5 {
+  box-sizing: border-box;
+  padding-right: 0.9788rem;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.viewtimer .brewtime .group4 .group5 .brewtimetext1 {
+  margin-right: 12.9rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.115;
+  color: #37251b;
+  font-family: Comfortaa, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.viewtimer .brewtime .group4 .group5 .time1 {
+  width: 2.4212rem;
+  height: 2.4222rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.viewtimer .brewtime .group4 .ingredientcomponentbrewtime {
+  width: 5.5rem;
+  height: 100%;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.115;
+  color: #37251b;
+  font-family: Comfortaa, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e4bc84;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.viewtimer .timertext {
+  width: 12.9rem;
+  height: 7.2rem;
+  position: absolute;
+  left: 13rem;
+  top: 17.2rem;
+  text-align: center;
+  font-size: 6.4rem;
+  font-weight: 400;
+  line-height: 1.115;
+  color: #37251b;
+  font-family: Comfortaa, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.viewtimer .backtorecipe {
+  width: 27.5rem;
+  height: 5.4rem;
+  cursor: pointer;
+  position: absolute;
+  left: 5.7rem;
+  top: 52rem;
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.115;
+  color: #37251b;
+  font-family: Comfortaa, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e4bc84;
+  border-radius: 2.4rem;
+}
+.viewtimer .group6 {
+  width: 33.3rem;
+  height: 7.7rem;
+  position: absolute;
+  left: 2.8rem;
+  top: 27.2rem;
+  display: flex;
+  align-items: center;
+}
+.viewtimer .group6 .start {
+  margin-right: 1.5rem;
+  width: 15.9rem;
+  height: 100%;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.115;
+  color: #37251b;
+  font-family: Comfortaa, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e4bc84;
+  border-radius: 2.4rem;
+  flex-shrink: 0;
+}
+.viewtimer .group6 .pause {
+  width: 15.9rem;
+  height: 100%;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.115;
+  color: #faeadc;
+  font-family: Comfortaa, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ad6e2f;
+  border-radius: 2.4rem;
+  flex-shrink: 0;
+}
+.viewtimer .timetostop {
+  width: 4rem;
+  height: 2.2rem;
+  position: absolute;
+  left: 17.5rem;
+  top: 23.6rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.115;
+  color: #000000;
+  font-family: Comfortaa, 'Source Sans Pro';
+  white-space: nowrap;
+}

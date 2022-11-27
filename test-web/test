@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="icon" href="file:///C:/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#000000">
+  <title>CreateRecipe</title>
+  <link rel="stylesheet" href="./CreateRecipe_files/createrecipe.css">
+</head>
+<body>
+<div class="createrecipe">
+  <div class="title">Recipe Title</div>
+  <div class="milk">
+    <div class="group1" >
+      <p class="milktext">Milk:</p>
+      <div contenteditable="true" class="ingredientcomponentmilk">Whole, 1 cup</div>
+    </div>
+  </div>
+  <div class="brew-time">
+    <div class="group2">
+      <div class="group3">
+        <p class="brew-time2">Brew Time: </p>
+        <img class="time" src="./CreateRecipe_files/time.png">
+      </div>
+      <div contenteditable="true" class="ingredientcomponentbrewtime">5:02</div>
+    </div>
+  </div>
+  <div class="milk">
+    <div class="group1" >
+      <p class="milktext">Sugar:</p>
+      <div contenteditable="true" class="ingredientcomponentmilk">Whole, 1 cup</div>
+    </div>
+  </div>
+  <div class="coffeeground">
+    <div class="group5">
+      <p class="coffeegroundstext">Coffee Grounds:</p>
+      <div contenteditable="true" class="ingredientcomponentcoffeeground">1 tbsp, black</div>
+    </div>
+  </div>
+  <script>
+    
+  document.getElementById("milktext").addEventListener('click', function(el) {
+      localStorage.setItem("text", document.getElementById('group1').innerHTML);
+  });
+  window.onload = function() {
+      var text = localStorage.getItem("text");
+      document.getElementById('group1').innerHTML = text;
+  }
+  document.getElementById("ingredientcomponentbrewtime").addEventListener('click', function(el) {
+    localStorage.setItem("text", document.getElementById('ingredientcomponentbrewtime').innerHTML);
+});
+window.onload = function() {
+    var text = localStorage.getItem("text");
+    document.getElementById('ingredientcomponentbrewtime').innerHTML = text;
+}
+  </script>
+  <!-- <div class="brew-time">
+    <div class="group2">
+      <div class="group3">
+        <p class="brew-time2">Brew Time: </p>
+        <img class="time" src="./CreateRecipe_files/time.png">
+      </div>
+      <div class="ingredientcomponentbrewtime">5:02</div>
+    </div>
+  </div>
+  <div class="sugar">
+    <div class="group4">
+      <p class="sugartext">Sugar:</p>
+      <div class="ingredientcomponentsugar">1 tbsp</div>
+    </div>
+  </div>
+  <div class="coffeeground">
+    <div class="group5">
+      <p class="coffeegroundstext">Coffee Grounds:</p>
+      <div class="ingredientcomponentcoffeeground">1 tbsp, black</div>
+    </div>
+  </div>
+  <div class="newingredient">
+    <div class="group6">
+      <p class="newingredienttext">New Ingredient</p>
+      <img class="time" src="./CreateRecipe_files/time2.png">
+    </div>
+  </div> -->
+  <div class="group7">
+    <div class="savethisrecipe">Save this Recipe</div>
+    <img class="delete" src="./CreateRecipe_files/delete.png">
+  </div>
+  <div class="backtorecipe">Back to Recipes</div>
+</div>
+</body>
+</html>
