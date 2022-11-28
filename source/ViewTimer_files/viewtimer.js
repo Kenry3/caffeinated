@@ -4,6 +4,8 @@ function init() {
     let selectRecipe = localStorage.getItem('selectRecipe');
     let recipe = JSON.parse(localStorage.getItem(selectRecipe));
     let input = document.querySelectorAll('input');
+    let stopTime = document.querySelector('.timetostop');
+    stopTime.textContent = recipe['time'];
     input.forEach((el) => {
         el.value = recipe[el.name];
     });

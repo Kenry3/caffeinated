@@ -29,7 +29,7 @@ newCoffeeButton.addEventListener('click', () => {
         id:`newRecipe${localStorage.length + 1}`,
         name: `newRecipe${localStorage.length + 1}`,
         milk: "Whole, 1 cup",
-        time: "5:00",
+        time: "05:00",
         sugar: "1 sp",
         CG: "1 tbsp, black"
     };
