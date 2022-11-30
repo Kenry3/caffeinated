@@ -23,7 +23,13 @@
 
 [WEEK 8- Sprint 1 Review -aka- FirstRunEnd](files/11-15-2022-sprint-1-review.md)<br>
 [WEEK 8- Retrospective 1](files/retrospective-11-15-2022.md)<br>
-[WEEK 8- Retrospective 2](files/retrospective-11-15-2022.md)<br>
+[WEEK 8- Retrospective 2](files/retrospective-11-19-2022.md)<br>
 
 ---
 [WEEK 9- Sprint 2 Review -aka- SecondRunEnd](files/11-22-2022-sprint-2-review.md)<br>
+[WEEK 9- Retrospective 3](files/retrospective-11-22-2022.md)<br>
+
+---
+
+[WEEK 10- Sprint 3 Review -aka- thirdRunEnd](files/11-29-2022-sprint-3-review.md)<br>
+[WEEK 10- Retrospective 4](files/retrospective-11-29-2022.md)<br>

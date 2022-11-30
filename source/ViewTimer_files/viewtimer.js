@@ -22,8 +22,12 @@ function init() {
     var sec = document.querySelector('.sec1upper');
     var coffee = document.querySelector('.loader');
     let t;
+    let alarm = document.querySelector('.alarm');
     function tout() {
-        t = setTimeout(() => but2.click(), timeInMs);
+        t = setTimeout(() => {
+            but2.click();
+            alarm.play();
+        }, timeInMs);
     }
     but1.addEventListener('click', () => {
         but1.style.visibility = "hidden";

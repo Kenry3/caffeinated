@@ -1,7 +1,8 @@
 window.addEventListener('DOMContentLoaded', init);
 
 function init() {
-    let recipe = JSON.parse(localStorage.getItem(`newRecipe${localStorage.length}`));
+    let index = localStorage.getItem('index');
+    let recipe = JSON.parse(localStorage.getItem(`newRecipe${index}`));
     let id = recipe['id'];
     let input =document.querySelectorAll('input');
     input.forEach((el) => {
@@ -19,7 +20,8 @@ function init() {
         for (const pair of formData.entries()) {
             recipeObject[pair[0]] = pair[1];
         }
-        localStorage.setItem(`newRecipe${localStorage.length}`, JSON.stringify(recipeObject));
+        localStorage.setItem(`newRecipe${index}`, JSON.stringify(recipeObject));
+        localStorage.setItem('index', parseInt(index)+1);
     });
     timeButton.addEventListener('click', () => {
         let formData = new FormData(formEl);
@@ -29,9 +31,9 @@ function init() {
             for (const pair of formData.entries()) {
                 recipeObject[pair[0]] = pair[1];
             }
-        localStorage.setItem(`newRecipe${localStorage.length}`, JSON.stringify(recipeObject));
+        localStorage.setItem(`newRecipe${index}`, JSON.stringify(recipeObject));
     });
     deleteButton.addEventListener('click', () => {
-        localStorage.removeItem(`newRecipe${localStorage.length}`);
+        localStorage.removeItem(`newRecipe${index}`);
 });
 }
