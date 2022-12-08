@@ -16,7 +16,7 @@ Colors used:
   - Title Backgrounds
 - CaffeinatedLight: `0xE4BC84`
   - Button Backgrounds
-- CaffeinatedMilk: `0xFAEDAC`
+- CaffeinatedMilk: `0xFAEADC`
   - Background for Recipe and Timer Views 
 
 <img src="images/ColorPalate.jpg" width="100">

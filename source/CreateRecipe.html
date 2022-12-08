@@ -1,11 +1,9 @@
 <!DOCTYPE html>
-
 <html>
   <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <link rel="icon" href="file:///C:/favicon.ico">
+  <link rel="icon" href="../admin/branding/caffeinated.png">
   <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
-
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#000000">
   <title>CreateRecipe</title>
@@ -16,57 +14,72 @@
 <div class="createrecipe">
   <form>
     <input class="title" value="Recipe Title" name="name">
-
     <div class="milk">
       <div class="group1" >
-        <p class="milktext">Milk:</p>
-        <input contenteditable="true" class="ingredientcomponentmilk" value="Whole, 1 cup" name="milk">
+        <p class="milktext">Product Brand</p>
+        <input contenteditable="true" class="ingredientcomponentmilk" value="Nescafé" name="ProductBrand">
       </div>
     </div>
-  
-
-    <div class="brew-time">
-      <div class="group2">
-        <div class="group3">
-          <p class="brew-time2">Brew Time: </p>
-        </div>
-        <input contenteditable="true" class="ingredientcomponentbrewtime" value="5:00" name="time">
+    <div class="milk">
+      <div class="group1" >
+        <p class="milktext">Origin</p>
+        <input contenteditable="true" class="ingredientcomponentmilk" value="single" name="Setting_Brew">
       </div>
     </div>
+    <div class="milk">
+      <div class="group1" >
 
+        <p class="milktext">Grind Setting</p>
+        <input contenteditable="true" class="ingredientcomponentmilk" value="Fine" name="Grind_Setting">
+
+      </div>
+    </div>
+    <div class="milk">
+      <div class="group1" >
+        <p class="milktext">Water : Ground </p>
+        <input contenteditable="true" class="ingredientcomponentmilk" value="17g to 1g" name="WaterToBrew">
+      </div>
+    </div>
+    <div class="milk">
+      <div class="group1" >
+        <p class="milktext">Brew Method</p>
+        <input contenteditable="true" class="ingredientcomponentmilk" value="French Press" name="Brew_Method">
+      </div>
+    </div>
+    <div class="milk">
+      <div class="group1" >
+        <p class="milktext">Brew Time</p>
+        <input contenteditable="true" class="ingredientcomponentmilk" value="5:00" name="Brew_Time">
+      </div>
+    </div>
+    
     <div class="sugar">
       <div class="group4" >
-        <p class="sugartext">Sugar:</p>
-        <input contenteditable="true" class="ingredientcomponentsugar" value="1 sp" name="sugar">
+        <p class="sugartext">Milk Quantity</p>
+        <input contenteditable="true" class="ingredientcomponentsugar" value="1 sp" name="Milk_Q">
       </div>
     </div>
-    <div class="coffeeground">
-      <div class="group5">
-        <p class="coffeegroundstext">Coffee Grounds:</p>
-        <input contenteditable="true" class="ingredientcomponentcoffeeground" value="1 tbsp, black" name="CG">
+    <div class="sugar">
+      <div class="group4" >
 
+        <p class="sugartext">Sugar</p>
+        <input contenteditable="true" class="ingredientcomponentsugar" value="1 sp" name="Sugar">
       </div>
     </div>
-
+    
   </form>
-  <button class = "timeButton" onclick="window.location.href='./CreateTimer.html'" style="background-color: transparent;"><img class="time" src="./CreateRecipe_files/time.png"></button>
-  <!-- <script>   
-  document.getElementById("milktext").addEventListener('click', function(el) {
-      localStorage.setItem("text", document.getElementById('group1').innerHTML);
-  });
-  window.onload = function() {
-      var text = localStorage.getItem("text");
-      document.getElementById('group1').innerHTML = text;
-  }
-  </script> -->
-
+<form action="justSpace"></form>
+  <button class = "timeButton" onclick="window.location.href='./CreateTimer.html'" 
+    style="background-color: transparent; outline:none;border-width:0rem;">
+    <img class="time" src="./CreateRecipe_files/time.png"></button>
   <div class="group7">
-    <button class="savethisrecipe" onclick = "window.location.href='./HomeScreen.html'">Save this Recipe</button>
-    <button class="delete" onclick="window.location.href='./HomeScreen.html'" style="background-color: transparent; border-width:0rem"><img class="delete" src="./CreateRecipe_files/delete.png"></button>
+    <button class="savethisrecipe" >Save this Recipe</button>
+    <button class="delete" onclick="window.location.href='./HomeScreen.html'" 
+      style="background-color: transparent; border-width:0rem">
+      <img class="delete" src="./CreateRecipe_files/delete.png"></button>
   </div>
-
   <div class="savedRecipes"></div>
-
 </div>
+
 </body>
 </html>
