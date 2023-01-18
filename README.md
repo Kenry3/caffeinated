@@ -1,4 +1,4 @@
-# CSE110-FA22-GROUP11 #
+
 
 ***CAFFEINATED***
 
